@@ -1,10 +1,14 @@
 package com.example.resttemplate;
 
 import lombok.AllArgsConstructor;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 @AllArgsConstructor
 @NoArgsConstructor
+@Getter
+@Setter
 public class Trello {
 
     private String name;
@@ -25,6 +29,5 @@ public class Trello {
     private boolean organization_pluginData;
     private boolean myPrefs;
     private boolean tags;
-
 
 }
