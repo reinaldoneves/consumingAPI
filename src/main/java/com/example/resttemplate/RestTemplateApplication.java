@@ -12,6 +12,8 @@ import org.springframework.web.util.UriComponentsBuilder;
 /** @author reinaldo
  * Já sei namorar, já sei beijar de língua, agora só me resta
  * saber como consumir outra API
+ *
+ * Mais doc: https://developer.atlassian.com/cloud/trello/rest/api-group-boards/#api-boards-id-get
  * */
 @SpringBootApplication
 public class RestTemplateApplication {
