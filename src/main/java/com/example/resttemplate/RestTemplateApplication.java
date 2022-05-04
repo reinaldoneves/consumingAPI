@@ -23,15 +23,14 @@ public class RestTemplateApplication {
 
 	public static void consumerAPI() {
 
-		System.out.println("Consumindo o GET de uma API de leve");
+		System.out.println("\nConsumindo o GET de uma API de leve\n");
 
 		RestTemplate template = new RestTemplate();
-		template.getForEntity("https://api.trello.com/1/boards/{id}/memberships", String.class);
 
 		UriComponents uri = UriComponentsBuilder.newInstance()
 				.scheme("https")
 				.host("api.trello.com")
-				.path("/1/boards/{id}/memberships")
+				.path("1/boards/5abbe4b7ddc1b351ef961414")
 				.queryParam("fields", "all")
  				.build();
 
